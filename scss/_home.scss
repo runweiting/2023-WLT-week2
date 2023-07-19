@@ -9,3 +9,21 @@
         text-align: right;
     }
 }
+.header {
+    padding: 72px 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    img {
+        height: 848px;
+    }
+    .btn-contactMe {
+        padding: 12px 24px;
+        border-radius: 32px;
+        font-size: 16px;
+        font-family: 'Bruno Ace SC', cursive;
+        
+
+    }
+
+}
