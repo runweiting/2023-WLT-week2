@@ -1,11 +1,13 @@
 /* -- 顏色 -- */
 $color-primary: #00ffa3;
-$color-secondary: #050014;
 $color-info: #e3e3e3;
 $white: #fff;
 $black: #000;
 
 /* -- 背景顏色 -- */
+.bg-linearGradient {
+    background-image: linear-gradient(to bottom, #050014, #01021EE3);
+}
 .bg-white {
     background-color: $white;
 }
@@ -16,12 +18,6 @@ $black: #000;
 /* -- 字體顏色 -- */
 .color-primary {
     color: #00ffa3;
-}
-.color-secondary {
-    color: #050014;
-}
-.color-info {
-    color: #e3e3e3;
 }
 .white {
     color: #fff;
@@ -50,6 +46,11 @@ h2 {
     font-size: 20px;
 }
 
+/* -- 間距 -- */
+.mb-36 {
+    margin-bottom: 36px;
+}
+
 /* -- 排版 -- */
 .d-flex {
     display: flex;
@@ -65,9 +66,9 @@ h2 {
 }
 
 /* -- 共同架構 -- */
-* {
+/* {
     outline: 1px solid yellowgreen;
-}
+}*/
 body {
     background-color: $black;
     color: $white;

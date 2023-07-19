@@ -50,3 +50,58 @@
         gap: 24px;
     }
 }
+/* ------ 關於個人 ------ */
+.aboutMe {
+    padding: 160px 0;
+    color: $black;
+    display: flex;
+    justify-content: space-between;
+    .card-list {
+        width: 640px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        .card {
+            padding: 16px;
+            height: 116px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            border: 1px solid $color-info;
+            box-shadow: 4px 4px 6px $color-info;
+            p {
+                width: 274px;
+            }
+        }
+    }
+    .textBox {
+        display: inline-block;
+        p {
+        width: 526px;
+        }
+    }
+}
+/* ------ 聯絡方式 ------ */
+.contactMe {
+    padding: 96px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .textBox {
+        display: flex;
+        gap: 16px;
+        img {
+            height: 100px;
+        }
+    }
+    .social {
+        display: flex;
+        gap: 20px;
+        img {
+            height: 162px;
+        }
+    }
+
+}
+/* ------ 作品集 ------ */

@@ -55,6 +55,10 @@ table {
 
 /* -- 顏色 -- */
 /* -- 背景顏色 -- */
+.bg-linearGradient {
+  background-image: linear-gradient(to bottom, #050014, rgba(1, 2, 30, 0.8901960784));
+}
+
 .bg-white {
   background-color: #fff;
 }
@@ -66,14 +70,6 @@ table {
 /* -- 字體顏色 -- */
 .color-primary {
   color: #00ffa3;
-}
-
-.color-secondary {
-  color: #050014;
-}
-
-.color-info {
-  color: #e3e3e3;
 }
 
 .white {
@@ -109,6 +105,11 @@ h2 {
   font-size: 20px;
 }
 
+/* -- 間距 -- */
+.mb-36 {
+  margin-bottom: 36px;
+}
+
 /* -- 排版 -- */
 .d-flex {
   display: flex;
@@ -127,10 +128,9 @@ h2 {
 }
 
 /* -- 共同架構 -- */
-* {
-  outline: 1px solid yellowgreen;
-}
-
+/* {
+    outline: 1px solid yellowgreen;
+}*/
 body {
   background-color: #000;
   color: #fff;
@@ -228,3 +228,60 @@ button:hover {
   height: 600px;
   gap: 24px;
 }
+
+/* ------ 關於個人 ------ */
+.aboutMe {
+  padding: 160px 0;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMe .card-list {
+  width: 640px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.aboutMe .card-list .card {
+  padding: 16px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 6px #e3e3e3;
+}
+.aboutMe .card-list .card p {
+  width: 274px;
+}
+.aboutMe .textBox {
+  display: inline-block;
+}
+.aboutMe .textBox p {
+  width: 526px;
+}
+
+/* ------ 聯絡方式 ------ */
+.contactMe {
+  padding: 96px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactMe .textBox {
+  display: flex;
+  gap: 16px;
+}
+.contactMe .textBox img {
+  height: 100px;
+}
+.contactMe .social {
+  display: flex;
+  gap: 20px;
+}
+.contactMe .social img {
+  height: 162px;
+}
+
+/* ------ 作品集 ------ */
