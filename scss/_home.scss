@@ -19,11 +19,19 @@
     img {
         height: 848px;
     }
-    .btn-contactMe {
-        padding: 12px 24px;
-        border-radius: 32px;
-        font-size: 16px;
-        font-family: 'Bruno Ace SC', cursive;
+    .textBox {
+        display: flex;
+        flex-direction: column;
+        h1, .btn-contactMe {
+            align-self: flex-end;
+        }
+        .btn-contactMe {
+            width: 185px;
+            padding: 12px 24px;
+            border-radius: 32px;
+            font-size: 16px;
+            font-family: 'Bruno Ace SC', cursive;
+        }
     }
 }
 /* ------ 個人簡介 ------ */
