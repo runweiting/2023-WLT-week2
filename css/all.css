@@ -302,3 +302,11 @@ button:hover {
   font-size: 16px;
   font-family: "Bruno Ace SC", cursive;
 }
+
+/* ------ 版權聲明 ------ */
+.footer {
+  padding: 40px 0;
+}
+.footer p {
+  text-align: center;
+}
