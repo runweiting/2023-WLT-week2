@@ -1,0 +1,90 @@
+/* -- 顏色 -- */
+$color-primary: #00ffa3;
+$color-secondary: #050014;
+$color-info: #e3e3e3;
+$white: #fff;
+$black: #000;
+
+/* -- 背景顏色 -- */
+.bg-white {
+    background-color: $white;
+}
+.bg-black {
+    background-color: $black;
+}
+
+/* -- 字體顏色 -- */
+.color-primary {
+    color: #00ffa3;
+}
+.color-secondary {
+    color: #050014;
+}
+.color-info {
+    color: #e3e3e3;
+}
+
+/* -- 字體 -- */
+h1 {
+    font-size: 128px;
+}
+.display-1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 40px;
+}
+.fs-1 {
+    font-size: 32px;
+}
+.fs-2 {
+    font-size: 24px;
+}
+.fs-3 {
+    font-size: 20px;
+}
+
+/* -- 排版 -- */
+.d-flex {
+    display: flex;
+}
+.d-inline {
+    display: inline-block;
+}
+.me-auto {
+    margin-right: auto;
+}
+.ms-auto {
+    margin-left: auto;
+}
+
+/* -- 共同架構 -- */
+body {
+    background-color: $black;
+    color: $white;
+    line-height: 1.5;
+    font-family: 'Bruno Ace', cursive;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: $color-primary;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 32px;
+    background-color: transparent;
+    &:hover {
+        opacity: 0.5;
+    }
+}
