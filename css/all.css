@@ -113,10 +113,16 @@ h2 {
 /* -- 排版 -- */
 .d-flex {
   display: flex;
+  gap: 24px;
 }
 
 .d-inline {
   display: inline-block;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .me-auto {
@@ -128,9 +134,10 @@ h2 {
 }
 
 /* -- 共同架構 -- */
-/* {
-    outline: 1px solid yellowgreen;
-}*/
+* {
+  outline: 1px solid yellowgreen;
+}
+
 body {
   background-color: #000;
   color: #fff;
@@ -285,3 +292,13 @@ button:hover {
 }
 
 /* ------ 作品集 ------ */
+.project {
+  color: #000;
+  padding: 160px 0;
+}
+.project .btn-seeMore {
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 16px;
+  font-family: "Bruno Ace SC", cursive;
+}

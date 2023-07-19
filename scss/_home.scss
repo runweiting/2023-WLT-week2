@@ -105,3 +105,13 @@
 
 }
 /* ------ 作品集 ------ */
+.project {
+    color: $black;
+    padding: 160px 0;
+    .btn-seeMore {
+        padding: 12px 24px;
+        border-radius: 32px;
+        font-size: 16px;
+        font-family: 'Bruno Ace SC', cursive;
+    }
+}

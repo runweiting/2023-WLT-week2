@@ -54,9 +54,14 @@ h2 {
 /* -- 排版 -- */
 .d-flex {
     display: flex;
+    gap: 24px;
 }
 .d-inline {
     display: inline-block;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 .me-auto {
     margin-right: auto;
@@ -66,9 +71,9 @@ h2 {
 }
 
 /* -- 共同架構 -- */
-/* {
+* {
     outline: 1px solid yellowgreen;
-}*/
+}
 body {
     background-color: $black;
     color: $white;
