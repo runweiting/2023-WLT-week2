@@ -110,6 +110,10 @@ h2 {
   margin-bottom: 36px;
 }
 
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 /* -- 排版 -- */
 .d-flex {
   display: flex;
