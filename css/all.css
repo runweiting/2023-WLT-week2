@@ -181,10 +181,9 @@ h2 {
 }
 
 /* -- 共同架構 -- */
-* {
-  outline: 1px solid yellowgreen;
-}
-
+/* {
+    outline: 1px solid yellowgreen;
+}*/
 body {
   background-color: #000;
   color: #fff;
@@ -326,7 +325,6 @@ button:hover {
 }
 .project .side-project-below {
   height: 306px;
-  width: auto;
 }
 
 /* ------ 版權聲明 ------ */
