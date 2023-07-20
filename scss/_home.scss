@@ -1,8 +1,6 @@
 /* ------ 上方選單 ------ */
 .menu {
     padding: 40px 0 0 0;
-    display: flex;
-    justify-content: space-between;
     a {
         width: 306px;
     }
@@ -13,18 +11,11 @@
 /* ------ 個人頭像 ------ */
 .header {
     padding: 72px 0;
-    display: flex;
-    align-items: center;
-    gap: 24px;
     img {
         height: 848px;
     }
-    .textBox {
-        display: flex;
-        flex-direction: column;
-        h1, button {
-            align-self: flex-end;
-        }
+    .textBox h1, button {
+        align-self: flex-end;
     }
 }
 /* ------ 個人簡介 ------ */
@@ -34,84 +25,69 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
     .textBox {
         width: 526px;
         .sparkle-sm {
-        height: 98px;
-        display: flex;
-        gap: 16px;
+            height: 98px;
         }
     }
     .photoBox {
-        display: flex;
         height: 600px;
-        gap: 24px;
     }
 }
 /* ------ 關於個人 ------ */
 .aboutMe {
     padding: 160px 0;
     color: $black;
-    display: flex;
-    justify-content: space-between;
     .card-list {
-        width: 640px;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 24px;
+        width: 636px;
+        height: 328px;
         .card {
             padding: 16px;
-            height: 116px;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
+            width: 272px;
             border: 1px solid $color-info;
-            box-shadow: 4px 4px 6px $color-info;
-            p {
-                width: 274px;
-            }
+            box-shadow: 2px 2px 2px $color-info;
         }
     }
     .textBox {
-        display: inline-block;
-        p {
         width: 526px;
-        }
     }
 }
 /* ------ 聯絡方式 ------ */
 .contactMe {
     padding: 96px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .textBox {
-        display: flex;
-        gap: 16px;
-        img {
-            height: 100px;
+    .textBox img {
+        height: 100px;
+    }
+    .social img {
+        height: 162px;
+        &:hover {
+            box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9);
+            border-radius: 40px;
         }
     }
-    .social {
-        display: flex;
-        gap: 20px;
-        a:hover {
-            opacity: 0.5;
-        }
-        img {
-            height: 162px;
-        }
-    }
-
 }
 /* ------ 作品集 ------ */
 .project {
-    color: $black;
     padding: 160px 0;
+    color: $black;
+    h2 {
+        width: 746px;
+    }
+    .main-project {
+        height: 530px;
+    }
+    .side-project-top {
+        height: 196px;
+        p {
+            width: 636px;
+        }
+    }
+    .side-project-below {
+        height: 306px;
+        width: auto;
+    }
+    
 }
 /* ------ 版權聲明 ------ */
 .footer {

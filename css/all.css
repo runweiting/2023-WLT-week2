@@ -106,27 +106,70 @@ h2 {
 }
 
 /* -- 間距 -- */
-.mb-36 {
-  margin-bottom: 36px;
+.mb-1 {
+  margin-bottom: 4px;
 }
 
-.mb-32 {
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
+}
+
+.mb-8 {
   margin-bottom: 32px;
 }
 
-/* -- 排版 -- */
-.d-flex {
-  display: flex;
-  gap: 24px;
+.mb-9 {
+  margin-bottom: 36px;
 }
 
-.d-inline {
-  display: inline-block;
+.mb-19 {
+  margin-bottom: 76px;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
+.mr-5 {
+  margin-right: 20px;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+/* -- 排版 -- */
+.flex {
+  display: flex;
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .me-auto {
@@ -138,9 +181,10 @@ h2 {
 }
 
 /* -- 共同架構 -- */
-/* {
-    outline: 1px solid yellowgreen;
-}*/
+* {
+  outline: 1px solid yellowgreen;
+}
+
 body {
   background-color: #000;
   color: #fff;
@@ -192,8 +236,6 @@ button:hover {
 /* ------ 上方選單 ------ */
 .menu {
   padding: 40px 0 0 0;
-  display: flex;
-  justify-content: space-between;
 }
 .menu a {
   width: 306px;
@@ -205,18 +247,11 @@ button:hover {
 /* ------ 個人頭像 ------ */
 .header {
   padding: 72px 0;
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 .header img {
   height: 848px;
 }
-.header .textBox {
-  display: flex;
-  flex-direction: column;
-}
-.header .textBox h1, .header .textBox button {
+.header .textBox h1, .header button {
   align-self: flex-end;
 }
 
@@ -227,86 +262,71 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
 }
 .introduction .textBox {
   width: 526px;
 }
 .introduction .textBox .sparkle-sm {
   height: 98px;
-  display: flex;
-  gap: 16px;
 }
 .introduction .photoBox {
-  display: flex;
   height: 600px;
-  gap: 24px;
 }
 
 /* ------ 關於個人 ------ */
 .aboutMe {
   padding: 160px 0;
   color: #000;
-  display: flex;
-  justify-content: space-between;
 }
 .aboutMe .card-list {
-  width: 640px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 24px;
+  width: 636px;
+  height: 328px;
 }
 .aboutMe .card-list .card {
   padding: 16px;
-  height: 116px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+  width: 272px;
   border: 1px solid #e3e3e3;
-  box-shadow: 4px 4px 6px #e3e3e3;
-}
-.aboutMe .card-list .card p {
-  width: 274px;
+  box-shadow: 2px 2px 2px #e3e3e3;
 }
 .aboutMe .textBox {
-  display: inline-block;
-}
-.aboutMe .textBox p {
   width: 526px;
 }
 
 /* ------ 聯絡方式 ------ */
 .contactMe {
   padding: 96px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.contactMe .textBox {
-  display: flex;
-  gap: 16px;
 }
 .contactMe .textBox img {
   height: 100px;
 }
-.contactMe .social {
-  display: flex;
-  gap: 20px;
-}
-.contactMe .social a:hover {
-  opacity: 0.5;
-}
 .contactMe .social img {
   height: 162px;
+}
+.contactMe .social img:hover {
+  box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9);
+  border-radius: 40px;
 }
 
 /* ------ 作品集 ------ */
 .project {
-  color: #000;
   padding: 160px 0;
+  color: #000;
+}
+.project h2 {
+  width: 746px;
+}
+.project .main-project {
+  height: 530px;
+}
+.project .side-project-top {
+  height: 196px;
+}
+.project .side-project-top p {
+  width: 636px;
+}
+.project .side-project-below {
+  height: 306px;
+  width: auto;
 }
 
 /* ------ 版權聲明 ------ */
