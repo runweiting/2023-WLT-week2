@@ -22,15 +22,8 @@
     .textBox {
         display: flex;
         flex-direction: column;
-        h1, .btn-contactMe {
+        h1, button {
             align-self: flex-end;
-        }
-        .btn-contactMe {
-            width: 185px;
-            padding: 12px 24px;
-            border-radius: 32px;
-            font-size: 16px;
-            font-family: 'Bruno Ace SC', cursive;
         }
     }
 }
@@ -106,6 +99,9 @@
     .social {
         display: flex;
         gap: 20px;
+        a:hover {
+            opacity: 0.5;
+        }
         img {
             height: 162px;
         }
@@ -116,12 +112,6 @@
 .project {
     color: $black;
     padding: 160px 0;
-    .btn-seeMore {
-        padding: 12px 24px;
-        border-radius: 32px;
-        font-size: 16px;
-        font-family: 'Bruno Ace SC', cursive;
-    }
 }
 /* ------ 版權聲明 ------ */
 .footer {

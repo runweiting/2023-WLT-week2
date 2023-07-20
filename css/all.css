@@ -163,10 +163,15 @@ a {
   color: #fff;
 }
 a:hover {
-  opacity: 0.7;
+  color: #00ffa3;
 }
 
 button {
+  width: 185px;
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 16px;
+  font-family: "Bruno Ace SC", cursive;
   border: none;
   background-color: transparent;
 }
@@ -212,15 +217,8 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
-.header .textBox h1, .header .textBox .btn-contactMe {
+.header .textBox h1, .header .textBox button {
   align-self: flex-end;
-}
-.header .textBox .btn-contactMe {
-  width: 185px;
-  padding: 12px 24px;
-  border-radius: 32px;
-  font-size: 16px;
-  font-family: "Bruno Ace SC", cursive;
 }
 
 /* ------ 個人簡介 ------ */
@@ -299,6 +297,9 @@ button:hover {
   display: flex;
   gap: 20px;
 }
+.contactMe .social a:hover {
+  opacity: 0.5;
+}
 .contactMe .social img {
   height: 162px;
 }
@@ -307,12 +308,6 @@ button:hover {
 .project {
   color: #000;
   padding: 160px 0;
-}
-.project .btn-seeMore {
-  padding: 12px 24px;
-  border-radius: 32px;
-  font-size: 16px;
-  font-family: "Bruno Ace SC", cursive;
 }
 
 /* ------ 版權聲明 ------ */
