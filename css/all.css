@@ -228,7 +228,7 @@ button:hover {
 }
 
 .wrap {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 
@@ -237,7 +237,7 @@ button:hover {
   padding: 40px 0 0 0;
 }
 .menu a {
-  width: 306px;
+  max-width: 306px;
 }
 .menu li:nth-child(4) {
   text-align: right;
@@ -247,8 +247,8 @@ button:hover {
 .header {
   padding: 72px 0;
 }
-.header img {
-  height: 848px;
+.header img, .header .textBox {
+  max-width: calc(50% - 12px);
 }
 .header .textBox h1, .header button {
   align-self: flex-end;
@@ -263,13 +263,13 @@ button:hover {
   background-position: center center;
 }
 .introduction .textBox {
-  width: 526px;
+  max-width: 526px;
 }
 .introduction .textBox .sparkle-sm {
   height: 98px;
 }
 .introduction .photoBox {
-  height: 600px;
+  max-width: 746px;
 }
 
 /* ------ 關於個人 ------ */
@@ -278,7 +278,7 @@ button:hover {
   color: #000;
 }
 .aboutMe .card-list {
-  width: 636px;
+  max-width: calc(50% - 12px);
   height: 328px;
 }
 .aboutMe .card-list .card {
@@ -315,16 +315,16 @@ button:hover {
   width: 746px;
 }
 .project .main-project {
-  height: 530px;
+  max-width: 416px;
 }
 .project .side-project-top {
-  height: 196px;
+  max-width: 196px;
 }
 .project .side-project-top p {
   width: 636px;
 }
 .project .side-project-below {
-  height: 306px;
+  max-height: 306px;
 }
 
 /* ------ 版權聲明 ------ */

@@ -2,7 +2,7 @@
 .menu {
     padding: 40px 0 0 0;
     a {
-        width: 306px;
+        max-width: 306px;
     }
     li:nth-child(4) {
         text-align: right;
@@ -11,8 +11,8 @@
 /* ------ 個人頭像 ------ */
 .header {
     padding: 72px 0;
-    img {
-        height: 848px;
+    img, .textBox {
+        max-width: calc(50% - 12px);
     }
     .textBox h1, button {
         align-self: flex-end;
@@ -26,13 +26,13 @@
     background-repeat: no-repeat;
     background-position: center center;
     .textBox {
-        width: 526px;
+        max-width: 526px;
         .sparkle-sm {
             height: 98px;
         }
     }
     .photoBox {
-        height: 600px;
+        max-width: 746px;
     }
 }
 /* ------ 關於個人 ------ */
@@ -40,7 +40,7 @@
     padding: 160px 0;
     color: $black;
     .card-list {
-        width: 636px;
+        max-width: calc(50% - 12px);
         height: 328px;
         .card {
             padding: 16px;
@@ -75,16 +75,16 @@
         width: 746px;
     }
     .main-project {
-        height: 530px;
+        max-width: 416px;
     }
     .side-project-top {
-        height: 196px;
+        max-width: 196px;
         p {
             width: 636px;
         }
     }
     .side-project-below {
-        height: 306px;
+        max-height: 306px;
     }
 }
 /* ------ 版權聲明 ------ */
