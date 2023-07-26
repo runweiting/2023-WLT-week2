@@ -41,10 +41,9 @@
     color: $black;
     .card-list {
         max-width: calc(50% - 12px);
-        height: 328px;
         .card {
             padding: 16px;
-            width: 272px;
+            max-width: calc(50% - 12px);
             border: 1px solid $color-info;
             box-shadow: 2px 2px 2px $color-info;
         }

@@ -109,6 +109,10 @@ h2 {
 /* {
     outline: 1px solid yellowgreen;
 }*/
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: $black;
     color: $white;

@@ -184,6 +184,10 @@ h2 {
 /* {
     outline: 1px solid yellowgreen;
 }*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #000;
   color: #fff;
@@ -279,11 +283,10 @@ button:hover {
 }
 .aboutMe .card-list {
   max-width: calc(50% - 12px);
-  height: 328px;
 }
 .aboutMe .card-list .card {
   padding: 16px;
-  width: 272px;
+  max-width: calc(50% - 12px);
   border: 1px solid #e3e3e3;
   box-shadow: 2px 2px 2px #e3e3e3;
 }
